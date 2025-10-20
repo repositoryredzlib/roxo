@@ -11,16 +11,16 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
 	Themes = {
 		Darker = {
-	["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
-    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(200, 230, 255)),
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(150, 255, 255))
+		["Color Hub 1"] = ColorSequence.new({
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(75, 0, 130)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(48, 0, 98))
 }),
-["Color Hub 2"] = Color3.fromRGB(240, 240, 255),
-["Color Stroke"] = Color3.fromRGB(180, 200, 220),
-["Color Theme"] = Color3.fromRGB(160, 220, 255),
-["Color Text"] = Color3.fromRGB(220, 240, 255),
-["Color Dark Text"] = Color3.fromRGB(170, 200, 230)
+["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
+["Color Stroke"] = Color3.fromRGB(20, 20, 20),
+["Color Theme"] = Color3.fromRGB(75, 0, 130),
+["Color Text"] = Color3.fromRGB(255, 255, 255),
+["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
 		}
 	},
 	Info = {
